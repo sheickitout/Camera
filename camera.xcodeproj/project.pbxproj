@@ -13,6 +13,7 @@
 		8893CE0F2625F3B900FD9184 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8893CE0D2625F3B900FD9184 /* Main.storyboard */; };
 		8893CE112625F3BA00FD9184 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8893CE102625F3BA00FD9184 /* Assets.xcassets */; };
 		8893CE142625F3BA00FD9184 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8893CE122625F3BA00FD9184 /* LaunchScreen.storyboard */; };
+		8893CE642626036600FD9184 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8893CE632626036600FD9184 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8893CE102625F3BA00FD9184 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8893CE132625F3BA00FD9184 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8893CE152625F3BA00FD9184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8893CE632626036600FD9184 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				8893CE072625F3B900FD9184 /* AppDelegate.swift */,
 				8893CE092625F3B900FD9184 /* SceneDelegate.swift */,
 				8893CE0B2625F3B900FD9184 /* ViewController.swift */,
+				8893CE632626036600FD9184 /* Inceptionv3.mlmodel */,
 				8893CE0D2625F3B900FD9184 /* Main.storyboard */,
 				8893CE102625F3BA00FD9184 /* Assets.xcassets */,
 				8893CE122625F3BA00FD9184 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8893CE0C2625F3B900FD9184 /* ViewController.swift in Sources */,
+				8893CE642626036600FD9184 /* Inceptionv3.mlmodel in Sources */,
 				8893CE082625F3B900FD9184 /* AppDelegate.swift in Sources */,
 				8893CE0A2625F3B900FD9184 /* SceneDelegate.swift in Sources */,
 			);
@@ -287,6 +291,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29G3WLK3J7;
 				INFOPLIST_FILE = camera/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +310,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29G3WLK3J7;
 				INFOPLIST_FILE = camera/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
