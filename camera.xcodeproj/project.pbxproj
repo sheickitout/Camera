@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		885B02C52636EC24002345F6 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885B02C42636EC23002345F6 /* VideoViewController.swift */; };
 		8893CE082625F3B900FD9184 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8893CE072625F3B900FD9184 /* AppDelegate.swift */; };
 		8893CE0A2625F3B900FD9184 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8893CE092625F3B900FD9184 /* SceneDelegate.swift */; };
 		8893CE0C2625F3B900FD9184 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8893CE0B2625F3B900FD9184 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		885B02C42636EC23002345F6 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		8893CE042625F3B900FD9184 /* camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = camera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8893CE072625F3B900FD9184 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8893CE092625F3B900FD9184 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +44,7 @@
 		8893CDFB2625F3B800FD9184 = {
 			isa = PBXGroup;
 			children = (
+				885B02C42636EC23002345F6 /* VideoViewController.swift */,
 				8893CE062625F3B900FD9184 /* camera */,
 				8893CE052625F3B900FD9184 /* Products */,
 			);
@@ -143,6 +146,7 @@
 				8893CE0C2625F3B900FD9184 /* ViewController.swift in Sources */,
 				8893CE642626036600FD9184 /* Inceptionv3.mlmodel in Sources */,
 				8893CE082625F3B900FD9184 /* AppDelegate.swift in Sources */,
+				885B02C52636EC24002345F6 /* VideoViewController.swift in Sources */,
 				8893CE0A2625F3B900FD9184 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
